@@ -1,0 +1,8 @@
+ rm -r ai-900 -f
+ git clone https://github.com/MicrosoftLearning/AI-900-AIFundamentals ai-900
+ cd ai-900
+ code detect-objects.ps1
+ $predictionUrl="https..."
+ $predictionKey ="1a2b3c4d5e6f7g8h9i0j...."
+ ./detect-objects.ps1 1
+ ./detect-objects.ps1 2
